@@ -6,7 +6,8 @@ body {
   font-family: Upheavtt;
   text-align: center;
   color: #c7b29a;
-  background-color: #000;
+  height: 94vh;
+  background: url("../images/back.png") no-repeat #000 bottom;
 }
 a {
   color: currentColor;
