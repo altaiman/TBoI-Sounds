@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Upheavtt";
+  src: url("../fonts/upheavtt.ttf");
+}
+body {
+  font-family: Upheavtt;
+  text-align: center;
+  color: #c7b29a;
+  background-color: #000;
+}
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+.header__title {
+  margin: 0.5em 0 0;
+  font-size: 48px;
+  color: #8b0000;
+  transition: transform 0.3s;
+}
+.header__title:hover {
+  transform: scale(1.2);
+}
+.header__title-text {
+  margin: 0;
+  font-size: 32px;
+  text-shadow: 0 1px 10px #8b0000;
+}
+.sounds {
+  margin: 10em auto;
+}
+.sound {
+  display: inline-block;
+  margin: auto;
+  width: 5em;
+  color: #c7b29a;
+  transition: all 0.05s;
+}
+.sound:active {
+  transform: scale(1.1);
+}
+.playing {
+  transform: scale(1.1);
+}
+.sound-name {
+  display: block;
+  margin-left: 3px;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+.block {
+  display: block;
+  margin: 2em auto;
+}
+.block .sound-name {
+  font-size: 21px;
+}
